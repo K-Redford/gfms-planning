@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply text-slate-900;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"],
+    input[type="date"],
+    input[type="time"],
+    select,
+    textarea {
+        @apply rounded-md border-slate-300 text-sm text-slate-800 shadow-sm focus:border-slate-500 focus:ring-slate-500;
+    }
+
+    table {
+        @apply w-full text-sm text-slate-700;
+    }
+
+    thead th {
+        @apply bg-slate-50 text-xs font-semibold uppercase tracking-widest text-slate-500;
+    }
+
+    tbody td {
+        @apply text-slate-700;
+    }
+}
