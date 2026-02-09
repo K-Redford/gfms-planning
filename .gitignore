@@ -5,3 +5,5 @@
 /.env
 /.env.*
 /public/storage
+
+!.env.example
